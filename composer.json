@@ -1,0 +1,27 @@
+{
+    "name": "smkbm3/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Smkbm3\\BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gusti Alifiraqsha",
+            "email": "alifiraqshaakbar@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HOFii/Belajar-PHP-Composer-Hello"
+    }
+],
+    "require": {
+        "php" : ">8.0",
+        "gustiakabar/belajar-php-composer-hello" : "1.0.0.0",
+        "monolog/monolog" : "3.5.0"
+    }
+}
